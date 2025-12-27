@@ -1,0 +1,20 @@
+@startuml
+
+class Task {
+    - id: int
+    - titulo: String
+    - descricao: String
+    - prioridade: String
+}
+
+class TaskManager {
+    - tarefas: List<Task>
+    + criarTarefa(titulo: String, descricao: String): void
+    + listarTarefas(): List<Task>
+    + atualizarTarefa(id: int, titulo: String, descricao: String): boolean
+    + removerTarefa(id: int): boolean
+}
+
+TaskManager "1" -- "*" Task : gerencia
+
+@enduml

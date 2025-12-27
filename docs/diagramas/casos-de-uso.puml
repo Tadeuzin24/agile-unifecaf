@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+
+actor Usuario
+
+rectangle "Sistema de Gerenciamento de Tarefas" {
+    Usuario -- (Criar tarefa)
+    Usuario -- (Listar tarefas)
+    Usuario -- (Atualizar tarefa)
+    Usuario -- (Remover tarefa)
+}
+
+@enduml
