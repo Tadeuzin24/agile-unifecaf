@@ -33,4 +33,15 @@ public class TaskManagerTest {
         assertTrue(removido);
         assertEquals(0, manager.listarTarefas().size());
     }
+
+    @Test
+    void deveCriarTarefaComPrioridadePadrao() {
+        TaskManager manager = new TaskManager();
+        manager.criarTarefa("Teste prioridade", "Verificar prioridade");
+
+        Task tarefa = manager.listarTarefas().get(0);
+
+        assertEquals("MEDIA", tarefa.getPrioridade());
+    }
+
 }
