@@ -3,6 +3,14 @@ package br.com.unifecaf;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Classe de testes unitários para o TaskManager.
+ *
+ * Utiliza JUnit 5 para validar as principais funcionalidades
+ * do sistema de gerenciamento de tarefas, garantindo a
+ * qualidade e confiabilidade do código.
+ */
+
 public class TaskManagerTest {
 
     @Test

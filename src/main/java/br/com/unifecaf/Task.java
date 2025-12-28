@@ -1,5 +1,9 @@
 package br.com.unifecaf;
 
+/**
+ * Classe responsável por representar uma tarefa do sistema.
+ */
+
 public class Task {
 
     private int id;

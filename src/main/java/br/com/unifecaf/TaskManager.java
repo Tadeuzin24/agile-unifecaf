@@ -3,6 +3,14 @@ package br.com.unifecaf;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe responsável pelo gerenciamento das tarefas do sistema.
+ *
+ * Permite criar, listar, atualizar e remover tarefas,
+ * simulando um sistema básico de gerenciamento de tarefas
+ * baseado em metodologias ágeis.
+ */
+
 public class TaskManager {
 
     private List<Task> tarefas = new ArrayList<>();
