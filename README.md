@@ -117,6 +117,7 @@ Garante maior confiabilidade a cada commit realizado
 Durante o desenvolvimento, foi simulada uma mudança de escopo, com a adição de uma nova funcionalidade (exemplo: prioridade das tarefas).
 
 Justificativa
+
 A mudança foi necessária para atender a novas necessidades identificadas durante o desenvolvimento, demonstrando a flexibilidade das metodologias ágeis.
 
 As alterações foram:
@@ -128,15 +129,30 @@ Implementadas com novos commits
 Documentadas neste README
 
 👥 Principais Beneficiados
+
 Desenvolvedores, para organização e controle de tarefas
 
 Gestores de projetos, para acompanhamento do progresso
 
 Empresas, para melhoria da produtividade e organização do fluxo de trabalho
 
+## Metodologia Ágil e Organização do Projeto
+
+Este projeto foi desenvolvido utilizando a metodologia ágil Kanban, com o objetivo de visualizar o fluxo de trabalho e facilitar o acompanhamento das tarefas ao longo do desenvolvimento.
+
+O quadro Kanban foi criado utilizando a aba Projects do GitHub, organizado nas seguintes colunas:
+
+- To Do: tarefas planejadas e ainda não iniciadas
+- In Progress: tarefas em desenvolvimento
+- Done: tarefas concluídas
+
+Essa abordagem permitiu maior controle do andamento do projeto, melhor organização das atividades e rápida adaptação a mudanças de escopo, como a inclusão da prioridade das tarefas.
+
+
 📌 Considerações Finais
 
 Este projeto evidencia a importância da Engenharia de Software, mostrando como planejamento, versionamento, testes automatizados e adaptação a mudanças são essenciais para o desenvolvimento de software de qualidade.
+
 
 📎 Autor: João Victor Tadeu
 🐙 GitHub: https://github.com/Tadeuzin24
