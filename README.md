@@ -48,6 +48,7 @@ Essa metodologia permitiu melhor visualização do fluxo de trabalho, priorizaç
 ---
 
 ## 📂 Estrutura do Projeto
+```yaml
 ├── src/
 │ ├── main/
 │ │ └── java/
@@ -63,10 +64,7 @@ Essa metodologia permitiu melhor visualização do fluxo de trabalho, priorizaç
 │ └── workflows/
 │ └── ci.yml
 └── README.md
-
-yaml
-Copy code
-
+```
 ---
 
 ## ▶️ Como Executar o Projeto
@@ -79,16 +77,18 @@ Copy code
 1. Clone o repositório:
 ```bash
 git clone https://github.com/Tadeuzin24/agile-unifecaf.git
+````
 Abra o projeto no IntelliJ IDEA.
 
 Aguarde o carregamento das dependências.
 
 Execute a classe principal:
 
-java
-Copy code
+```java
 TaskManager.java
+```
 🧪 Testes Automatizados
+
 Os testes automatizados foram implementados utilizando JUnit, garantindo a validação das funcionalidades principais do sistema, como:
 
 Criação de tarefas
@@ -99,9 +99,9 @@ Remoção de tarefas
 
 Para executar os testes:
 
-bash
-Copy code
+```bash
 mvn test
+```
 ou pelo próprio IntelliJ IDEA.
 
 🔁 Integração Contínua (CI)
@@ -135,6 +135,7 @@ Gestores de projetos, para acompanhamento do progresso
 Empresas, para melhoria da produtividade e organização do fluxo de trabalho
 
 📌 Considerações Finais
+
 Este projeto evidencia a importância da Engenharia de Software, mostrando como planejamento, versionamento, testes automatizados e adaptação a mudanças são essenciais para o desenvolvimento de software de qualidade.
 
 📎 Autor: João Victor Tadeu
