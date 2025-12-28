@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * Utiliza JUnit 5 para validar as principais funcionalidades
  * do sistema de gerenciamento de tarefas, garantindo a
- * qualidade e confiabilidade do código.
+ * confiabilidade do código.
  */
 
 public class TaskManagerTest {
