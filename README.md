@@ -114,7 +114,7 @@ Executa os testes automatizados
 Garante maior confiabilidade a cada commit realizado
 
 🔄 Gestão de Mudanças
-Durante o desenvolvimento, foi simulada uma mudança de escopo, com a adição de uma nova funcionalidade (exemplo: prioridade das tarefas).
+Durante o desenvolvimento, foi simulada uma mudança de escopo, com a adição de uma nova funcionalidade (prioridade das tarefas).
 
 Justificativa
 
